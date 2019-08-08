@@ -2,19 +2,6 @@
 
 /*--------------------------------------------------------------------------Header--*/
 
-/*----------------------------------------------------Logo--*/
-.logo {
-    background: url("../images/mstgreen.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 180px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-}
-
 /*--------------------------------------------------Title--*/
 
 header {
@@ -25,14 +12,48 @@ header {
     font-family: "Exo",sans-serif;
     font-size: 36px;
     color: #07711f;
-    /*background-color: #07711f;*/
+    /*background-color: #dae6dd;*/
     text-align: left;
     width: 100%;
     min-height: 90px;
     padding-left: 5px;
+    text-decoration: none;
     /*padding-top: 5px;*/
 }
 
 .nav-background {
     min-height: 90px;
+}
+
+.header-background {
+    background-color: #dae6dd;
+    padding: 10px;
+}
+
+.navbar {
+    align-items: right;
+}
+
+/*--------------------------------------------------------------------------Footer--*/
+
+.footer-text {
+    text-align: center;
+    background-color: #dae6dd;
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+.footer-text i {
+    color: #07711f;
+    font-size: 25px;
+    /*margin-top: 15px;*/
+    /*padding-top: 20px;*/
+}
+
+/*--------------------------------------------------------------------Media Query--*/
+
+@media (min-width: 920px)
+.navbar-expand-md .navbar-nav {
+    display: flex;
+    flex-direction: column ;
 }
