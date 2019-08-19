@@ -1,37 +1,60 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Abel:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Abel:100,200,300,400,500,600,700|Crimson Text:100,200,300,400,500,600,700|Baloo:100,200,300,400,500,600,700');
 
 /*--------------------------------------------------------------------------Header--*/
 
 /*--------------------------------------------------Title--*/
 
-header {
-    margin: 0;
-}
-
 .hdr-title-color {
-    font-family: "Exo",sans-serif;
+    font-family: "Exo", sans-serif;
     font-size: 36px;
     color: #07711f;
-    /*background-color: #dae6dd;*/
-    text-align: left;
+    background-color: #dae6dd;
+    text-align: right;
     width: 100%;
     min-height: 90px;
-    padding-left: 5px;
-    text-decoration: none;
+    margin:0 20px 0 0;
+    padding: 5px 5px 5px 0;
+    /*padding-right: 5px;*/
     /*padding-top: 5px;*/
+    text-decoration: none;
 }
+
+.hdr-title-color h1:hover {
+    color: #fff;
+}
+
+.header-background {
+    background-color: #dae6dd;
+    padding: 15px 10px 15px 5px;
+}
+
+.form-inline {
+    align-items: left;
+}
+
+/*------------------------------------------------Nav Bar--*/
 
 .nav-background {
     min-height: 90px;
 }
 
-.header-background {
-    background-color: #dae6dd;
-    padding: 10px;
+.nav-font-color a:hover {
+    color: #e0960b;
+}
+
+.navbar i:hover {
+    color: #e0960b;
+}
+
+.navbar i {
+    color: #07711f;
 }
 
 .navbar {
-    align-items: right;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
 }
 
 /*--------------------------------------------------------------------------Footer--*/
@@ -39,7 +62,7 @@ header {
 .footer-text {
     text-align: center;
     background-color: #dae6dd;
-    margin-top: 15px;
+    /*margin-top: 25px;*/
     padding-top: 20px;
 }
 
@@ -50,10 +73,175 @@ header {
     /*padding-top: 20px;*/
 }
 
-/*--------------------------------------------------------------------Media Query--*/
+.social-links i:hover {
+    color: #e0960b;
+}
 
-@media (min-width: 920px)
-.navbar-expand-md .navbar-nav {
-    display: flex;
-    flex-direction: column ;
+/*---------------------Keep footer as bottom as possible--*/
+
+/*html, body {*/
+
+/*    height: 100%;*/
+
+/*}*/
+
+/*#container {*/
+
+/*    min-height: 80%*/
+
+/*}*/
+
+/*#main {*/
+
+/*    overflow: auto;*/
+
+/*    padding-bottom: 90px*/
+
+/*}*/
+
+/*#footer {*/
+
+/*    position: relative;*/
+
+/*    height: 90px;*/
+
+/*    margin-top: -90px;*/
+
+/*    clear: both;*/
+
+/*}*/
+
+/*-------------------------------------------------------------------------Product--*/
+
+.section-center {
+    font-family: "Abel", sans-serif;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.modal-body {
+    font-family: "Abel", sans-serif;
+    font-size: 15px
+}
+
+.modal-body i {
+    
+    font-size: 30px
+}
+
+.modal-header h5 {
+    font-family: "Baloo", sans-serif;
+    font-size: 20px
+}
+
+span {
+  text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------------Contact--*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+
+}
+
+.contact-caption {
+    font-family: "Baloo", sans-serif;
+    /*font-weight: 300;*/
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.form-row {
+    margin-bottom: 25px;
+}
+
+/*---------------------------------------------------------------------------About--*/
+
+.about-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+
+}
+
+.about-caption {
+    font-family: "Baloo", sans-serif;
+    margin-top: 20px;
+    /*font-weight: 300;*/
+}
+
+/*-------------------------------------------------------Delivery, Return & Refund--*/
+
+.delretref-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    margin-top: 25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.delretref-caption {
+    font-family: "Baloo", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    /*font-weight: 300;*/
+}
+
+
+/*-------------------------------------------------------------------------General--*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.main-background {
+    /*height: 100vh;*/
+
+    background: url(../images/MST_Background_BW.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+}
+
+
+/*---------------------------------------------------------------------Media Query--*/
+
+@media (max-width: 920px) {
+    .center-form {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-xl-9 {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .col-xl-9 {
+        margin-right: 150px;
+        margin-left: 150px;
+    }
 }
