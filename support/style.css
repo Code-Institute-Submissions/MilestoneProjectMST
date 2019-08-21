@@ -2,7 +2,7 @@
 
 /*--------------------------------------------------------------------------Header--*/
 
-/*--------------------------------------------------Title--*/
+/*-------------------------------------------------Title--*/
 
 .hdr-title-color {
     font-family: "Exo", sans-serif;
@@ -11,31 +11,29 @@
     background-color: #dae6dd;
     text-align: right;
     width: 100%;
-    min-height: 90px;
-    margin:0 20px 0 0;
-    padding: 5px 5px 5px 0;
+    min-height: 60px;
+    margin: 0;
+    padding: 8px 16px 8px 0;
     /*padding-right: 5px;*/
     /*padding-top: 5px;*/
     text-decoration: none;
 }
 
-.hdr-title-color h1:hover {
-    color: #fff;
-}
-
 .header-background {
     background-color: #dae6dd;
-    padding: 15px 10px 15px 5px;
+    /*padding: 5px 5px 5px 5px;*/
 }
 
 .form-inline {
     align-items: left;
 }
 
-/*------------------------------------------------Nav Bar--*/
+/*-----------------------------------------------Nav Bar--*/
 
 .nav-background {
-    min-height: 90px;
+    margin-top: 26px;
+    /*min-height: 100px;*/
+    position: fixed;
 }
 
 .nav-font-color a:hover {
@@ -59,11 +57,13 @@
 
 /*--------------------------------------------------------------------------Footer--*/
 
+/*-----------------------------------Company Information--*/
+
 .footer-text {
     text-align: center;
     background-color: #dae6dd;
     /*margin-top: 25px;*/
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .footer-text i {
@@ -73,8 +73,22 @@
     /*padding-top: 20px;*/
 }
 
+.list-inline {
+    margin-bottom: 5px;
+}
+
+/*------------------------------------------Social Media--*/
+
 .social-links i:hover {
     color: #e0960b;
+}
+
+.social-link {
+    margin-bottom: 0;
+}
+
+.footer-caption {
+    font-family: "Baloo", sans-serif;
 }
 
 /*---------------------Keep footer as bottom as possible--*/
@@ -113,11 +127,15 @@
 
 /*-------------------------------------------------------------------------Product--*/
 
+/*------------------------------------------Font Styling--*/
+
 .section-center {
     font-family: "Abel", sans-serif;
     text-align: center;
     padding-top: 25px;
 }
+
+/*-----------------------------------------Modal Styling--*/
 
 .modal-body {
     font-family: "Abel", sans-serif;
@@ -125,7 +143,6 @@
 }
 
 .modal-body i {
-    
     font-size: 30px
 }
 
@@ -134,23 +151,31 @@
     font-size: 20px
 }
 
-span {
-  text-decoration: underline;
+/*----------------------------------Click to Buy Styling--*/
+
+.click-buy {
+    font-family: "Exo", sans-serif;
+    color: #07711f;
+    font-size: 20px;
+    text-transform: none;
 }
 
 /*-------------------------------------------------------------------------Contact--*/
+
+/*----------------------------------Contact Form Styling--*/
 
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-
 }
 
 .contact-caption {
     font-family: "Baloo", sans-serif;
     /*font-weight: 300;*/
 }
+
+/*------------------------------------------Form Styling--*/
 
 .center-form {
     padding-top: 10px;
@@ -172,7 +197,6 @@ span {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-
 }
 
 .about-caption {
@@ -198,12 +222,13 @@ span {
     /*font-weight: 300;*/
 }
 
-
 /*-------------------------------------------------------------------------General--*/
 
 .uppercase {
     text-transform: uppercase;
 }
+
+/*--------------------------------------------Background--*/
 
 .main-background {
     /*height: 100vh;*/
@@ -221,7 +246,6 @@ span {
     position: relative;
 }
 
-
 /*---------------------------------------------------------------------Media Query--*/
 
 @media (max-width: 920px) {
@@ -229,19 +253,5 @@ span {
         padding-top: 10px;
         margin: 0 auto;
         max-width: 90%;
-    }
-}
-
-@media (min-width: 768px) {
-    .col-xl-9 {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-}
-
-@media (min-width: 1025px) {
-    .col-xl-9 {
-        margin-right: 150px;
-        margin-left: 150px;
     }
 }
