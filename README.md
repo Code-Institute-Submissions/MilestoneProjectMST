@@ -12,7 +12,7 @@ I have chosen this project to build a website using my own idea, because I own a
 
 ## UX
 In modern world competition is harsh and if you don't stay ahead with latest design and technique, there is very high chances for any business to get lost. That is why I have decided to build a website with very clean and easy to understand design.
-My goal to have user-friendly website with easy to find option. That is why I have left burger bar icon positioned on left hand side with fix position, which can be access from any page or position. Moreover, I have kept Header and Footer with minimum information to have clutter free look on sizes of device. I have kept all four pages separate due to nature of business where information can be changed as and when required without effecting other areas or information.
+My goal to have user-friendly website with easy to find option. That is why I have left burger bar icon positioned on left hand side with fix position, which can be access from any page or position. Moreover, I have kept Header and Footer with minimum information to have clutter free look on any size of device. I have kept all four pages separate due to nature of business where information can be changed as and when required without effecting other areas or information.
 
 ## Features
 All images on product page has been blended in buttons, which customers can click to buy as well as have used Tooltips functionality to provide description about each product.
