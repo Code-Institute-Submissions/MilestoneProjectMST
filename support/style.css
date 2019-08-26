@@ -270,6 +270,8 @@ textarea.form-contact {
     height: auto;
 }
 
+/*----------------------------------------Button Styling--*/
+
 .btn-contact:hover {
     background-color: #07711f;
     color: #e0960b;
@@ -326,6 +328,31 @@ textarea.form-contact {
     margin-top: 20px;
     text-align: center;
     /*font-weight: 300;*/
+}
+
+.list-group-delivery {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: transparent;
+    border: 1px solid #07711f;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+
+.list-group-delivery-last {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: transparent;
+    border: 1px solid #07711f;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-radius: 0;
 }
 
 /*-------------------------------------------------------------------------General--*/
