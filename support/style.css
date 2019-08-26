@@ -107,6 +107,10 @@
     /*padding-top: 20px;*/
 }
 
+.footer-text i:hover {
+    color: #e0960b;
+}
+
 .list-inline {
     margin-bottom: 5px;
 }
