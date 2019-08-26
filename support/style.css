@@ -249,6 +249,54 @@
     margin-bottom: 25px;
 }
 
+.form-contact {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #dae6dd;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #07711f;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 10px;
+}
+
+textarea.form-contact {
+    height: auto;
+}
+
+.btn-contact:hover {
+    background-color: #07711f;
+    color: #e0960b;
+    text-decoration: bold;
+    font-weight: 400;
+}
+
+.btn-contact {
+    display: inline-block;
+    font-family: "Baloo", sans-serif;
+    font-weight: 400;
+    color: #07711f;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid #07711f;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
 /*---------------------------------------------------------------------------About--*/
 
 .about-heading {
