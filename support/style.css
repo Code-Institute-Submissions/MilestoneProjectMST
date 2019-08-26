@@ -173,16 +173,29 @@
 
 .modal-body {
     font-family: "Abel", sans-serif;
-    font-size: 15px
+    font-size: 15px;
 }
 
 .modal-body i {
-    font-size: 30px
+    font-size: 30px;
 }
 
 .modal-header h5 {
     font-family: "Baloo", sans-serif;
-    font-size: 20px
+    font-size: 20px;
+}
+
+.modal-body a {
+    color: #07711f;
+}
+
+.modal-body a:hover {
+    color: #e0960b;
+}
+
+.modal-body span {
+    text-decoration: underline;
+    
 }
 
 /*----------------------------------Click to Buy Styling--*/
@@ -192,6 +205,17 @@
     color: #07711f;
     font-size: 20px;
     text-transform: none;
+}
+
+/*----------------------------------------Product Button--*/
+
+.img-product {
+    padding: .25rem;
+    background-color: #fff;
+    border: .5px solid #07711f;
+    border-radius: .75rem;
+    max-width: 100%;
+    height: auto;
 }
 
 /*-------------------------------------------------------------------------Contact--*/
