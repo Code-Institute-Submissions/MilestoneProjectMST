@@ -29,7 +29,7 @@ On small devices products will be shown in either two columns or in a single col
 
 I did used Tooltip for buttons, where on desktop website it would have provided information about product as and when customer hover over button. But unfortunately, it wasn’t identical for small and touch functionality devices.
 
-To come over that issue, I have provided with small “i” icon next to each product name. This icon will provide description for each product when hover-over in desktop mode, while with touch functionality devices customer can tap on "i" icon to have full description of the product and click within tooltip will disappear it.
+To come over that issue, I have provided with small “i” icon next to each product name. This icon will provide description for each product when hover-over in desktop mode, while with touch functionality devices customer can tap on "i" icon to have full description of the product and click within tooltip will disappear the Tooltip.
 
 Contact Us page have full form by which, customer can contact me with question or query they have related to product or order. Functionality on pressing Send button would not work as I have to gain knowledge to make that functionality working. Some Social Media link will have same issue where clicking on icon will open website in new tab. I have activated link for Facebook and Instagram, which will take customer on our related social media page.
 
