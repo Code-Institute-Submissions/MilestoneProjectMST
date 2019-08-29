@@ -40,6 +40,11 @@
     color: #e0960b;
 }
 
+.navbar-nav {
+    background-color: #dae6dd;
+    width: 10%;
+}
+
 .navbar i:hover {
     color: #07711f;
 }
@@ -89,6 +94,11 @@
 
 .active>.nav-header {
     color: #e0960b;
+}
+
+.nav-item {
+    padding-left: 10px;
+    border-bottom: 1px solid #07711f;
 }
 
 /*--------------------------------------------------------------------------Footer--*/
@@ -373,10 +383,10 @@ textarea.form-contact {
     /*height: 100vh;*/
 
     background: url(../images/MST_Background_BW.jpg) no-repeat center center fixed;
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     
     /*display: flex;*/
     align-items: center;
@@ -401,5 +411,27 @@ textarea.form-contact {
         background-position: center top;
         background-repeat: repeat;
         background-attachment: fixed;
+        background-size: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar-nav {
+        /*background-color: #dae6dd;*/
+        width: 33%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .navbar-nav {
+        /*background-color: #dae6dd;*/
+        width: 27%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .navbar-nav {
+        /*background-color: #dae6dd;*/
+        width: 20%;
     }
 }
