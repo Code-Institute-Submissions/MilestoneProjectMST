@@ -41,7 +41,7 @@
 }
 
 .navbar-nav {
-    background-color: #dae6dd;
+    /*background-color: #dae6dd;*/
     width: 10%;
 }
 
@@ -417,21 +417,28 @@ textarea.form-contact {
 
 @media (max-width: 400px) {
     .navbar-nav {
-        /*background-color: #dae6dd;*/
-        width: 33%;
+        background-color: #dae6dd;
+        width: 37%;
     }
 }
 
-@media (min-width: 400px) and (max-width: 600px) {
+@media (min-width: 401px) and (max-width: 600px) {
     .navbar-nav {
-        /*background-color: #dae6dd;*/
+        background-color: #dae6dd;
         width: 27%;
     }
 }
 
-@media (min-width: 601px) and (max-width: 992px) {
+@media (min-width: 601px) and (max-width: 1000px) {
     .navbar-nav {
-        /*background-color: #dae6dd;*/
+        background-color: #dae6dd;
         width: 20%;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1199px) {
+    .navbar-nav {
+        background-color: #dae6dd;
+        width: 10%;
     }
 }
