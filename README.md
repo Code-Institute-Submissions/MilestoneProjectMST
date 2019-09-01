@@ -7,13 +7,13 @@ With this project I would like to build a user-friendly website which can be clu
 
 ## Technologies
 
-HTML
-CSS
-Bootstrap (4.3.1)
-Fontawesome
-Google Fonts
-Wireframe
-ScreenToGif (2.18)
+1. HTML
+2. CSS
+3. Bootstrap (4.3.1)
+4. Fontawesome
+5. Google Fonts
+6. Wireframe
+7. ScreenToGif (2.18)
 
 ## UX
 My website is for online business which is already established online with help of Amazon and eBay. With this website I will try to bring all my customer over where they can find all the products they need with larger and more clearer images. Now-a-days, there are millions product in the market with similar name or identical look, which makes very harder for customer to find the product they need.
