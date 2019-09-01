@@ -37,11 +37,6 @@ To design this website, I have created a design using Wireframe technology which
 https://github.com/hidayatmansuri/hidayatmansuri.github.io/tree/master/MST_Wireframe
 
 
-or can be found on following link for web browser:
-
-
-https://wireframe.cc/pro/pp/e6e30fa53269726
-
 ## Features
 Most of the website menu bar is embedded within nav bar on top of the website which can only be accessed by reaching on top of the website can be frustrating. To come over this issue I have kept menu bar floating on top left corner of the website which can be access from anywhere on website. For screen size over 1200-pixel menu background will be transparent for modern look. For smaller device there will be menu background matching header colour to avoid menu options getting lost within contain of the website particularly for Delivery and About Us pages.
 
