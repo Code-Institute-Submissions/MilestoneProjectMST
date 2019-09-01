@@ -7,6 +7,12 @@ With this project I would like to build a user-friendly website which can be clu
 
 ## Access my project on GitHub
 
+https://github.com/hidayatmansuri/MilestoneProjectMST
+
+or Published version
+
+file:///D:/Project/hidayatmansuri.github.io/index.html
+
 ## Technologies
 
 1. HTML
