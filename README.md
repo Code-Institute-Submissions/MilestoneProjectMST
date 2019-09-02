@@ -11,7 +11,7 @@ https://github.com/hidayatmansuri/MilestoneProjectMST
 
 or Published version
 
-file:///D:/Project/hidayatmansuri.github.io/index.html
+https://hidayatmansuri.github.io/
 
 ## Technologies
 
@@ -98,9 +98,22 @@ https://github.com/hidayatmansuri/hidayatmansuri.github.io/blob/master/images/Co
 ## Deployment
 I have deployed this project on GitHub through AWS Cloud9 using its command base terminal functionality, where it resides under MilestoneProjectMST repositories.
 
-
+To deploy this project on github using AWS cloud9 commands as follows:
+1.  git init - to get into github
+2.  git status - to find out all changes have been made within files
+3.  git add . - to add all amended files to hithub server
+4.  git commit -m - to commit all changes with reason
+5.  git push - to add all commited changes to github server which will be followed by username and password for particular account
 
 Also, I have deployed this project using GitHub desktop application. Where application have created a folder in which all files related project should be stored. Any changes made on the files stored within this folder will be picked by application, which needs to be commit and push to GitHub. This project resides under hidayatmansuri.github.io repository
+
+To deploy and publish this project using GitHub Desktop Appliaction, steps as follows:
+
+1.  Create a file using username followed by github.io
+2.  Select or create folder where you like to keep all the files for the project
+3.  Copy all the files to that newly created or selected folder
+4.  Any changed made within that folder will be picked up by application and will prompt user to commit
+5.  Once commited all the changes will prompt user with push notification which will push all the changes to related server
 
 Both of these methods stored data on same place under my account but one is command base application while another one is desktop application.
 
